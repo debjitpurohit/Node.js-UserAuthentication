@@ -1,7 +1,8 @@
+//cookie can be fount in inspect  -> application --> cookies
 import express from 'express'
 import path from 'path';
 import mongoose from 'mongoose'
-import cookieParser from 'cookie-parser';
+import cookieParser from 'cookie-parser'; // to see cookies in terminal else it shows Undefined 
 import jwt from 'jsonwebtoken';
 import bcrypt from "bcrypt";
 
